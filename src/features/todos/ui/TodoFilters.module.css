@@ -1,0 +1,25 @@
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.button {
+  padding: 6px 14px;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.button:hover {
+  border-color: var(--color-accent);
+}
+
+.active {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+  font-weight: 500;
+}
